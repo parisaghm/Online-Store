@@ -2,6 +2,9 @@
 
 An online store built with Vue 3 that allows users to browse products, add them to a cart, and view their total amount. The app features a simple and responsive layout, with easy-to-use components for an intuitive shopping experience.
 
+![567](https://github.com/user-attachments/assets/b3ef54a1-2d09-4960-a659-14ada6522e76)
+
+
 ## Features
 - Product Listing: Browse a variety of products with their names, prices, and images.
 - Add to Cart: Easily add products to the cart, with quantities automatically adjusted for duplicate items.
