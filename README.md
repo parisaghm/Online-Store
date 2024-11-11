@@ -20,6 +20,7 @@ An online store built with Vue 3 that allows users to browse products, add them 
 
 ## Project Structure
 ```
+bash
 .
 ├── public                # Static assets (e.g., images)
 ├── src
@@ -30,6 +31,19 @@ An online store built with Vue 3 that allows users to browse products, add them 
 ├── package.json          # Project metadata and dependencies
 └── README.md             # Project documentation
 ```
+
+## Component Details
+- App.vue: Contains the main layout, including the header and the dynamic cart view. Manages the cart state, including visibility, adding/removing items, and calculating totals.
+- ProductList.vue: Displays each product with an "Add to Cart" button. Emits an event to the parent when a product is added.
+- CartList.vue: Shows the items in the cart, their quantity, and total cost. Provides functionality to remove items from the cart.
+
+## Installation
+
+1. Clone the repository:
+ ```
+git clone https://github.com/your-username/vue-online-store.git
+cd vue-online-store
+```  
 
 ### Compiles and hot-reloads for development
 ```
