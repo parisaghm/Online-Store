@@ -7,6 +7,11 @@ An online store built with Vue 3 that allows users to browse products, add them 
 - Add to Cart: Easily add products to the cart, with quantities automatically adjusted for duplicate items.
 - Cart Management: View cart items, remove items, and see the total price of items in the cart.
 - Responsive Design: The layout adjusts for various screen sizes, making it mobile-friendly.
+
+## Technologies Used
+- Vue 3: For building reactive components.
+- CSS & TailwindCSS: Styling the UI with a combination of custom CSS and utility-first TailwindCSS.
+- Material Icons: Used for shopping cart, delete, and close icons.
 ```
 npm install
 ```
