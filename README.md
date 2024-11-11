@@ -43,11 +43,12 @@ bash
  ```
 git clone https://github.com/your-username/vue-online-store.git
 cd vue-online-store
-```  
+```
+2.Install dependencies:
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm install
 ```
 
 ### Compiles and minifies for production
