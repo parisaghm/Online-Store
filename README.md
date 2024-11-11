@@ -17,8 +17,18 @@ An online store built with Vue 3 that allows users to browse products, add them 
 - App.vue: Main component managing the layout, data, and communication between child components.
 - ProductList.vue: Displays the list of products and emits events when a product is added to the cart.
 - CartList.vue: Manages and displays items in the cart, including total calculations and removal of items.
+
+## Project Structure
 ```
-npm install
+.
+├── public                # Static assets (e.g., images)
+├── src
+│   ├── assets            # Application-specific assets
+│   ├── components        # Vue components (ProductList, CartList)
+│   ├── App.vue           # Main app component
+│   ├── main.js           # Entry point for Vue app
+├── package.json          # Project metadata and dependencies
+└── README.md             # Project documentation
 ```
 
 ### Compiles and hot-reloads for development
