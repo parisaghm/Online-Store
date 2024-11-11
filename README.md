@@ -57,10 +57,13 @@ npm run serve
 
 The app will be available at http://localhost:8080.
 
-### Lints and fixes files
-```
-npm run lint
-```
+### Usage
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Browse Products: Scroll through the product listings and click the shopping bag icon to add items to your cart.
+2. View Cart: Click the shopping bag icon in the header to open your cart and view all added items.
+3. Remove Items: Use the delete icon next to an item in the cart to remove it.
+4. View Total: The cart displays a running total based on items and their quantities.
+
+### Customization
+- Products: Modify the products array in App.vue to add, remove, or change the available products.
+- Styling: Update colors, layout, and fonts in the CSS or Tailwind classes to match your desired design.
