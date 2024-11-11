@@ -46,15 +46,16 @@ cd vue-online-store
 ```
 2.Install dependencies:
 
-### Compiles and hot-reloads for development
 ```
 npm install
 ```
 
-### Compiles and minifies for production
+3.Run the app:
 ```
-npm run build
+npm run serve
 ```
+
+The app will be available at http://localhost:8080.
 
 ### Lints and fixes files
 ```
