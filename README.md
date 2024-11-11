@@ -12,6 +12,11 @@ An online store built with Vue 3 that allows users to browse products, add them 
 - Vue 3: For building reactive components.
 - CSS & TailwindCSS: Styling the UI with a combination of custom CSS and utility-first TailwindCSS.
 - Material Icons: Used for shopping cart, delete, and close icons.
+
+## Components Overview
+- App.vue: Main component managing the layout, data, and communication between child components.
+- ProductList.vue: Displays the list of products and emits events when a product is added to the cart.
+- CartList.vue: Manages and displays items in the cart, including total calculations and removal of items.
 ```
 npm install
 ```
